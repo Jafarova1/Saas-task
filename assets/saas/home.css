@@ -1,0 +1,495 @@
+#navbar .navbar {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+#navbar .navbar .logo {
+  display: inline-block;
+}
+#navbar .navbar .logo .image1 {
+  height: 40px;
+}
+#navbar .navbar .nav-items {
+  display: flex;
+  gap: 50px;
+}
+#navbar .navbar .nav-items ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  margin-left: 100px;
+}
+#navbar .navbar .nav-items ul a {
+  text-decoration: none;
+  color: black;
+}
+#navbar .navbar .nav-items ul li:hover {
+  border-bottom: 1.5px solid grey;
+}
+#navbar .navbar .nav-items .icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+#main .main {
+  display: flex;
+  gap: 200px;
+  background-color: #f7f7f7;
+}
+#main .main .image2 {
+  border: 1px;
+  width: 500px;
+  height: 100%;
+  margin-right: 100px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg);
+  background-size: cover;
+}
+#main .main .right {
+  box-sizing: border-box;
+  padding: 30px;
+  margin-top: 100px;
+}
+#main .main .right h4 b {
+  font-size: 30px;
+}
+#main .main .right h4 span {
+  color: red;
+}
+#main .main .right p {
+  font-size: 20px;
+  color: rgb(109, 106, 106);
+}
+#main .main-2 {
+  display: flex;
+  justify-content: space-between;
+}
+#main .main-2 .filter {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+#main .main-2 .filter a {
+  text-decoration: none;
+  color: black;
+}
+#main .main-2 ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+#main .main-2 ul a {
+  text-decoration: none;
+  color: black;
+}
+#main .main-3 .images .part1 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+#main .main-3 .images .part1 .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#main .main-3 .images .part1 .text span {
+  color: #afafaf;
+}
+#main .main-3 .images .part1 .palm {
+  border: 1px;
+  width: 200px;
+  height: 250px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg);
+  background-size: cover;
+}
+#main .main-3 .images .part1 .palm:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#main .main-3 .images .part1 .foxglove {
+  border: 1px;
+  width: 200px;
+  height: 250px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-13-img.jpg);
+  background-size: cover;
+}
+#main .main-3 .images .part1 .foxglove:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#main .main-3 .images .part1 .alyssum {
+  border: 1px;
+  width: 200px;
+  height: 250px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-10-img.jpg);
+  background-size: cover;
+}
+#main .main-3 .images .part1 .alyssum:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#main .main-3 .images .part1 .spring {
+  border: 1px;
+  width: 200px;
+  height: 250px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-11-img.jpg);
+  background-size: cover;
+}
+#main .main-3 .images .part1 .spring:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#main .main-3 .images .part2 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+#main .main-3 .images .part2 .text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#main .main-3 .images .part2 .text2 span {
+  color: #afafaf;
+}
+#main .main-3 .images .part2 .scarlet {
+  border: 1px;
+  width: 200px;
+  height: 250px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-12-img.jpg);
+  background-size: cover;
+}
+#main .main-3 .images .part2 .scarlet:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#main .main-3 .images .part2 .rock {
+  border: 1px;
+  width: 200px;
+  height: 250px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-9-img.jpg);
+  background-size: cover;
+}
+#main .main-3 .images .part2 .rock:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#main .main-3 .images .part2 .summer {
+  border: 1px;
+  width: 200px;
+  height: 250px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-8-img.jpg);
+  background-size: cover;
+}
+#main .main-3 .images .part2 .summer:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#main .main-3 .images .part2 .rose {
+  border: 1px;
+  width: 200px;
+  height: 250px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-7-img.jpg);
+  background-size: cover;
+}
+#main .main-3 .images .part2 .rose:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#main .main-4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  background-color: #f7f7f7;
+  padding: 100px;
+  box-sizing: border-box;
+}
+#main .main-4 .left {
+  border: 1px;
+  width: 600px;
+  height: 400px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-video-img.jpg);
+  background-size: cover;
+}
+@media (max-width: 0px) {
+  #main .main-4 .main-4 {
+    flex-direction: column;
+    overflow-x: hidden !important;
+  }
+}
+#main .main-4 .right {
+  margin-left: 50px;
+  font-size: 20px;
+}
+#main .main-4 .right h4 {
+  font-size: 30px;
+  font-weight: 200;
+}
+#main .main-4 .right h4 span {
+  color: red;
+}
+#main .main-4 .right p {
+  color: #6d6a6a;
+}
+#main .main-4 .right .advertisment {
+  color: #6d6a6a;
+}
+#main .main-5 .text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 20px;
+}
+#main .main-5 h2 {
+  font-weight: 300;
+}
+#main .main-5 p {
+  color: #6d6a6a;
+}
+#main .main-5 .brooks {
+  border: 1px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-team-img-1.png);
+  background-size: cover;
+}
+#main .main-5 .harris {
+  border: 1px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-team-img-2.png);
+  background-size: cover;
+}
+#main .main-5 .clark {
+  border: 1px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-team-img-3.png);
+  background-size: cover;
+}
+#main .main-5 .watkins {
+  border: 1px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-team-img-4.png);
+  background-size: cover;
+}
+#main .main-5 .images {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 80px;
+}
+#main .main-5 .images .names {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 220px;
+  font-size: 15px;
+}
+#main .main-5 .images .names p {
+  color: black;
+}
+#main .main-5 .images .names span {
+  color: #6d6a6a;
+}
+@media (max-width: 800px) {
+  #main .main-5 .images {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#main .subscribe {
+  margin-top: 200px;
+  width: 99%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#main .subscribe h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#main .subscribe input {
+  width: 400px;
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#main .subscribe button {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  background-color: #f34f3f;
+  border-color: #f34f3f;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+}
+#main .subscribe .form {
+  display: flex;
+  overflow: hidden;
+}
+#main .blog {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+#main .blog .blog-text {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+#main .blog .blog-text h2 {
+  font-weight: 200;
+}
+#main .blog .blog-text p {
+  color: #6d6a6a;
+}
+#main .blog .blog-images {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 60px;
+  position: relative;
+}
+@media (max-width: 800px) {
+  #main .blog .blog-images .blog-images {
+    flex-direction: row;
+  }
+}
+#main .blog .blog-images .date {
+  border: 1px;
+  width: 100px;
+  height: 30px;
+  box-sizing: border-box;
+  position: absolute;
+  margin-top: 10px;
+  text-align: center;
+  top: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
+#main .blog .blog-images .power {
+  border: 1px;
+  width: 300px;
+  height: 200px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/blog-feature-img-1.jpg);
+  background-size: cover;
+}
+#main .blog .blog-images .florists {
+  border: 1px;
+  width: 300px;
+  height: 200px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/blog-feature-img-3.jpg);
+  background-size: cover;
+}
+#main .blog .blog-images .beauty {
+  border: 1px;
+  width: 300px;
+  height: 200px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/blog-feature-img-4.jpg);
+  background-size: cover;
+}
+#main .blog .blog-images .text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+}
+#main .blog .blog-images .text p {
+  color: black;
+}
+#main .blog .blog-images .text span {
+  color: #6d6a6a;
+}
+#main .quote {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+#main .quote .image {
+  border: 1px;
+  width: 100px;
+  height: 100px;
+  margin-top: 200px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/testimonial-img-1.png);
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+}
+#main .quote .text {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #4b4747;
+}
+#main .quote .text span {
+  font-size: 15px;
+  color: #afafaf;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  font-size: 20px;
+  background-color: #fefaf3;
+  padding: 20px;
+}
+.contact ul {
+  list-style: none;
+  padding-left: 6px;
+  padding-right: 15px;
+  font-size: 15px;
+}
+.contact a {
+  text-decoration: none;
+  color: #8b8b8b;
+}
+hr {
+  margin-top: -20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  background-color: #fefaf3;
+  position: relative;
+  margin-top: 10px;
+  height: 30px;
+  padding: 30px;
+}
+.bottom a {
+  text-decoration: none;
+  color: #afafaf;
+}
+
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}/*# sourceMappingURL=home.css.map */
